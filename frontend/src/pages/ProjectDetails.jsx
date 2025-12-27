@@ -37,7 +37,7 @@ function ProjectDetails() {
   const [editDueDate, setEditDueDate] = useState("");
   const [editStatus, setEditStatus] = useState("todo");
 
-  /* ===============================
+  /* ================= ==============
      FETCH TASKS
   =============================== */
   const fetchTasks = async () => {
