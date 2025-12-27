@@ -216,7 +216,7 @@ export const updateProject = async (req, res) => {
   }
 };
 
-/* ==============================
+/* ============================== 
    DELETE PROJECT (API 15)
 ================================ */
 export const deleteProject = async (req, res) => {
