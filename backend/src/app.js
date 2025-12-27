@@ -14,7 +14,7 @@ dotenv.config();
 
 const app = express();
 
-/* ✅ MUST COME FIRST */
+/* ✅ MUST COME  FIRST */
 app.use(express.json());
 
 /* ✅ CORS */
