@@ -15,3 +15,4 @@ const migrationsDir = path.join(process.cwd(), "database/migrations");
 
   process.exit(0);
 })();
+ 
