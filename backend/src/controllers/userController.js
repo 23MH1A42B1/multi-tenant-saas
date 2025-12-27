@@ -2,7 +2,7 @@ import bcrypt from "bcrypt";
 import pool from "../config/db.js";
 import auditLog from "../utils/auditLogger.js";
 
-/* ===============================
+/* ==============================
    ADD USER TO TENANT (API 8)
 ================================ */
 export const addUser = async (req, res) => {
