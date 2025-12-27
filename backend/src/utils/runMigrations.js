@@ -17,3 +17,4 @@ export const runMigrationsAndSeeds = async () => {
   await runSQLFiles(migrationsDir);
   await runSQLFiles(seedsDir);
 };
+ 
