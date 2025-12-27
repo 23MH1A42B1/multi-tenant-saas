@@ -13,7 +13,7 @@ const router = express.Router();
 router.get("/:tenantId", authenticate, getTenantById);
 router.put("/:tenantId", authenticate, updateTenant);
 
-/* Super Admin ONLY */
+/* Super Admi ONLY */
 router.get(
   "/",
   authenticate,
