@@ -13,7 +13,7 @@ function Users() {
   const [fullName, setFullName] = useState("");
   const [role, setRole] = useState("user");
 
-  /* =========================
+  /* ====================
      FETCH USERS
   ========================= */
   useEffect(() => {
