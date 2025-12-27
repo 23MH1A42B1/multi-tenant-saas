@@ -23,7 +23,7 @@ const initDb = async () => {
     // Get all migration files
     const migrationsDir = path.join(__dirname, "../../database/migrations");
     if (!fs.existsSync(migrationsDir)) {
-      console.error("❌ Migrations directory not found at:", migrationsDir);
+      console.error("❌ Migrations directory not found in:", migrationsDir);
       return;
     }
 
