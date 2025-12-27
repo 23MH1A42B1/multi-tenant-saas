@@ -10,3 +10,4 @@ const seedFile = path.join(process.cwd(), "database/seeds/seed_data.sql");
   console.log("✔ Seed data inserted");
   process.exit(0);
 })();
+ 
