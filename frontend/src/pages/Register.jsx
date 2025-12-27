@@ -69,7 +69,7 @@ function Register() {
         <div className="form-group">
           <label>Subdomain (Workspace URL)</label>
           <input name="subdomain" placeholder="acme" onChange={handleChange} required />
-          <small style={{ marginTop: "-5px", color: "#6b7280", fontSize: "0.8rem" }}>Your site will be: {form.subdomain || "your-company"}.saas.com</small>
+          <small style={{ marginTop: "-5px", color: "#7b8394ff", fontSize: "0.8rem" }}>Your site will be: {form.subdomain || "your-company"}.saas.com</small>
         </div>
 
         <div className="form-group">
