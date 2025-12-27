@@ -211,7 +211,7 @@ export const getMe = async (req, res) => {
   }
 };
 
-/* ===============================
+/* ==============================
    LOGOUT
 ================================ */
 export const logout = async (req, res) => {
