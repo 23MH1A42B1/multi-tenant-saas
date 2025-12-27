@@ -25,7 +25,7 @@ router.get(
   listUsers
 );
 
-/* Tenant Admin OR Self */
+/* Tenant Admin OR Self  */
 router.put(
   "/users/:userId",
   authenticate,
