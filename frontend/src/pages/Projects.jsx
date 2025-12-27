@@ -14,7 +14,7 @@ function Projects() {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
 
-  /* ===============================
+  /* ================== =============
      FETCH PROJECTS
   =============================== */
   useEffect(() => {
